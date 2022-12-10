@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Notes</title>
+</head>
+<body>
+ <P>
+ 	Untuk mengawali HTML ketik "Html" lalu tekan TAB
+Terdiri dari Tag, Atribut, dan Value
+
+Tag <p> untuk membuat paragraf
+tag <b></b> (bold) untuk membuat tulisan tebal
+	<i></i> (italic) untuk membuat tulisan miring
+	<u></u> (underline) untuk membuat tulisan dengan garis bawah
+	<h1></h1>-<h6></h6> untuk membuat tulisan besar-kecil
+		Dalam artikel, H1 bisa dipakai untuk judul
+		isi artikel bisa pakai<p>
+		untuk subjudul bisa pakai <h2> </h2>
+	<em></em> untuk membuat penekanan kalimat (miring), mirip <i><?
+	<strong><? untuk membuat paragraf dengan penekanan kalimat(cetak tebal), mirip <b>
+
+tag <br> untuk menambahkan spasi antar paragraf
+tag <hr> untuk menambahkan garis horisontal
+
+~ Untuk membuat catatan di line ~
+<!--  -->(Control + /) 
+
+~ Untuk membuat embed link~
+<a href="www.link tujuan.com">kalimat yang akan di embed</a>
+
+~ Untuk membuat list ter urut ~
+OL=ordered list
+<ol>
+	<li>item 1</li>
+	<li>item 2</li>
+	...(dst)
+</ol>
+		Urutannya default menggunakan angka, jika ingin memakai simbol lain bisa menggunakan:
+
+		<ol type="(value)">
+			contohnya
+			1/A/a/I/i
+
+		Menjadi
+			<ol type="A">
+				<li>Yanto</li>
+				<li>rehan wangsaf</li>
+				...
+			</ol>
+
+~ Untuk membuat list tidak terurut~
+UL=un-ordered list
+<ul>
+	<li>mie goreng</li>
+	<li>bakso bakar</li>
+	<li>mi wangsaf</li>
+</ul>
+		Urutan nya default menggunakan titik, jika ingin memakai simbol lain bisa menggunakan:
+
+		<ul type="(value>">
+			contohnya
+			disc/square/circle
+
+		Menjadi
+			<ul type="disc">
+				<li>mie goreng</li>
+				<li>bakso bakar</li>
+				<li>mi wangsaf</li>
+			</ul>
+
+~ Untuk membuat terminologi dan deskripsi ~
+DL=Definition List
+<dl>
+	<dt>Term 1</dt>
+	<dd>deskripsi 1</dd>
+	<dt>term 2</dt>
+	<dd>desktipsi 2</dd>
+</dl>
+		bentuknya menjadi :
+		term
+			deskripsi
+		term
+			deskripsi
+
+		bisa diberi judul, menjadi
+		<h1>Judul</h1>
+		<dl>
+			<dt>Term 1</dt>
+			<dd>deskripsi 1</dd>
+			<dt>term 2</dt>
+			<dd>desktipsi 2</dd>
+		</dl>
+
+~ Untuk membuat hyperlink ~
+Untuk membuad embed link di sebuah kalimat
+Dibagi menjadi 3: 
+-External link-
+Untuk ke web external,menggunakan:
+	<a href="web tujuan">Kata yang akan di embed</a>
+
+-Internal link/relatife url-
+<!-- Skip dulu, dirasa belum butuh. https://youtu.be/QIlBOI-hTuA -->
+
+-Page Anchor-
+Untuk mengarahkan ke bagian tertentu di web internal
+
+List:
+<ul>
+	<li><a href="(#id)">Value id</a></li>
+</ul>
+
+	TAPI TAMBAH ID DI SETELAH TAG AWAL
+
+		Contoh pembuatan list
+			<ul>
+				<li><a href="#Part 1">Ke bagian 1</a></li>
+				<li><a href="#Part 3">Ke bagian 2</a></li>
+				<li><a href="#Part 4">Ke bagian 3</a></li>
+			</ul>
+
+		Contoh penyelipan id setelah tag
+		<p id="Part 1">Value</p>
+		<p id="Part 2">Value</p>
+		<p id="Part 3">Value</p>
+
+		Atribut: <a href="Web" target="(Atribut)">Kalimat</a>
+		_self: untuk membuka di tab saat ini
+		_blank: untuk membuka di tab selanjutnya
+		_parent: blom diajarin karena berhubungan dengan frame
+		_top:ini juga 
+		<!-- https://youtu.be/QIlBOI-hTuA?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F&t=853 -->
+
+		kalau tidak dipakaikan atribut maka secara defaul menggunakan (_self)
+
+
+
+ </P>
+</body>
+</html>
